@@ -6,11 +6,16 @@
 trigger:
 - master
 
+#ool:
+#  vmImage: ubuntu-latest
 pool:
-  vmImage: ubuntu-latest
+  vmImage: "windows-latest"
+
+
 
 variables:
   buildConfiguration: 'Release'
+
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
