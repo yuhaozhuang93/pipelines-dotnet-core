@@ -9,7 +9,8 @@ trigger:
 #ool:
 #  vmImage: ubuntu-latest
 pool:
-  vmImage: "windows-latest"
+name: "Default"
+#  vmImage: "windows-latest"
 
 
 
